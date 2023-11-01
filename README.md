@@ -1,36 +1,15 @@
 ## Algorithms and Data Structures in Python
 
-### Arrays
-
-1. Static Arrays
-
-| Operation           | Big-O Time |
-| ------------------- |:----------:|
-| R / W i-th element  | O(1) |
-| Insert / Remove End | O(1) |
-| Insert Middle       | O(n) |
-| Remove Middle       | O(n) |
-
-Reading through arrays are instant, given the element, because each index is mapped to an address in the RAM. Size of array is irrelevant.
-
-Traversal through an array of size n is O(n).
-
-When removing from the end of the array, replace the last value with `0`, `null`, or `-1`; then reduce array length by 1.
-
-However removing from an i-th index, is different because replacing the i-th value with `0` would break the contiguous nature of the array.
-
-
-
-### Trees
-
-### Backtracking
-
-### Heap / Priority Queue
-
-### Hashing
-
-### Graphs
-
-### Dynamic Programming
-
-### Bit Manipulation
+1.  [Arrays](/arrays)
+2.  [Linked Lists](/linked_lists)
+3.  [Recursion](/recursion)
+4.  [Sorting](/sorting)
+5.  [Binary Search](/binary_search)
+6.  [Trees](/trees)
+7.  [Backtracking](/backtracking)
+8.  [Heap / Priority Queue](/heaps_and_queue)
+9.  [Hashing](/hashing)
+10.  [Graphs](/graphs)
+11.  [Dynamic Programming](/dynamic_programming)
+12.  [Bit Manipulation](/bit_manipulation)
+13.  [Advanced Algorithms](/advanced_algorithms)
